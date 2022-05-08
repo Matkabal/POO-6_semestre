@@ -13,7 +13,7 @@ public non-sealed class Buy implements Operations {
 			client.addCar(car);
 		}
 		else {
-			System.out.println("Money ins't enough, please, choose other car");
+			System.out.println("Money isn't enough, please, choose other car");
 		}
 		
 		

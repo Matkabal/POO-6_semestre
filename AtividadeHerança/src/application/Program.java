@@ -29,6 +29,13 @@ public class Program {
 	    for(Car x: Mateus.getCars()) {
 	    	System.out.println(x.toString());
 	    }
+	    vender.transaction(Mateus, civic);
+	    
+	    System.out.println(Mateus.getWallet());
+
+	    for(Car x: Mateus.getCars()) {
+	    	System.out.println(x.toString());
+	    }
 
 
 		
